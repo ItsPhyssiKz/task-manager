@@ -8,10 +8,8 @@ Users can create, view, update, and delete tasks — with filtering by status, o
 
 ## Live Demo
 
-> _Add your deployed links here once hosted._
->
-> - **Frontend:** https://your-app.vercel.app
-> - **Backend:** https://your-api.onrender.com
+> - **Frontend:** https://task-manager-nu-swart.vercel.app
+> - **Backend:** https://task-manager-api-r2f0.onrender.com
 
 ---
 
