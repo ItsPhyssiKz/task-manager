@@ -14,6 +14,18 @@ app.use(express.json({ limit: "10kb" }));
 
 app.use("/api/tasks", taskRoutes);
 
+// Root — API info
+app.get("/", (_req, res) => {
+  res.json({
+    name: "Task Manager API",
+    version: "1.0.0",
+    endpoints: {
+      tasks: "/api/tasks",
+      health: "/api/health",
+    },
+  });
+});
+
 // Health check
 app.get("/api/health", (_req, res) => {
   res.json({ status: "ok" });
